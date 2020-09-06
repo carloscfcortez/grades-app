@@ -4,6 +4,7 @@ const getAll = () => {
   return http.get('/grade');
 };
 
+
 const get = (id) => {
   return http.get(`/grade/${id}`);
 };
